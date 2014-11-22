@@ -2,7 +2,7 @@
 
 A map of the countries negotiating the Trans-Pacific Partnership trade agreemment.
 
-I saw this graphic on the Trans-Pacific_Partnership [wikipedia page](https://en.m.wikipedia.org/wiki/Trans-Pacific_Partnership#Membership_and_accession) and thought "that map should be centered on the Pacific ocean."
+I saw this graphic on the Trans-Pacific Partnership [wikipedia page](https://en.m.wikipedia.org/wiki/Trans-Pacific_Partnership#Membership_and_accession) and thought "that map should be centered on the Pacific ocean."
 
 ![](/screenshots/europe_centered.png?raw=true)
 
