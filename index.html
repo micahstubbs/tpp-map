@@ -13,34 +13,34 @@ path {
 /* colors from http://colorbrewer2.org/ */
 
  /* Currently in Negotiations */
-.country.id840 { fill: #1f78b4; }  /* United States */
-.country.id96 { fill: #1f78b4; } /* Brunei */  
-.country.id152 { fill: #1f78b4; } /* Chile */ 
-.country.id554 { fill: #1f78b4; } /* New Zealand */ 
-.country.id702 { fill: #1f78b4; } /* Singapore */ 
-.country.id36 { fill: #1f78b4; } /* Australia */
-.country.id604 { fill: #1f78b4; } /* Peru */
-.country.id704 { fill: #1f78b4; } /* Vietnam */
-.country.id458 { fill: #1f78b4; } /* Malaysia */
-.country.id484 { fill: #1f78b4; } /* Mexico */
-.country.id124 { fill: #1f78b4; } /* Canada */
-.country.id392 { fill: #1f78b4; } /* Japan */
+.country.id840 { fill: #1b9e77; }  /* United States */
+.country.id96 { fill: #1b9e77; } /* Brunei */  
+.country.id152 { fill: #1b9e77; } /* Chile */ 
+.country.id554 { fill: #1b9e77; } /* New Zealand */ 
+.country.id702 { fill: #1b9e77; } /* Singapore */ 
+.country.id36 { fill: #1b9e77; } /* Australia */
+.country.id604 { fill: #1b9e77; } /* Peru */
+.country.id704 { fill: #1b9e77; } /* Vietnam */
+.country.id458 { fill: #1b9e77; } /* Malaysia */
+.country.id484 { fill: #1b9e77; } /* Mexico */
+.country.id124 { fill: #1b9e77; } /* Canada */
+.country.id392 { fill: #1b9e77; } /* Japan */
 
 /* Announced Interest */
-.country.id158 { fill: #a6cee3; } /* Republic of China */ 
-.country.id410 { fill: #a6cee3; } /* Republic of Korea */ 
-.country.id188 { fill: #a6cee3; } /* Costa Rica */
-.country.id170 { fill: #a6cee3; } /* Colombia */
-.country.id764 { fill: #a6cee3; } /* Thailand */
-.country.id418 { fill: #a6cee3; } /* Laos */
-.country.id360 { fill: #a6cee3; } /* Indonesia */
-.country.id608 { fill: #a6cee3; } /* The Phillipines */
+.country.id158 { fill: #d95f02; } /* Republic of China */ 
+.country.id410 { fill: #d95f02; } /* Republic of Korea */ 
+.country.id188 { fill: #d95f02; } /* Costa Rica */
+.country.id170 { fill: #d95f02; } /* Colombia */
+.country.id764 { fill: #d95f02; } /* Thailand */
+.country.id418 { fill: #d95f02; } /* Laos */
+.country.id360 { fill: #d95f02; } /* Indonesia */
+.country.id608 { fill: #d95f02; } /* The Phillipines */
 
 /* Potential Future Members */
-.country.id356 { fill: #b2df8a; } /* India */
-.country.id156 { fill: #b2df8a; } /* China */
-.country.id50 { fill: #b2df8a; } /* Bangladesh */
-.country.id116 { fill: #b2df8a; } /* Cambodia */
+.country.id356 { fill: #7570b3; } /* India */
+.country.id156 { fill: #7570b3; } /* China */
+.country.id50 { fill: #7570b3; } /* Bangladesh */
+.country.id116 { fill: #7570b3; } /* Cambodia */
 
 </style>
 <body>
@@ -83,7 +83,7 @@ d3.json("world-110m2.json", function(error, topology) {
 // draw the legend
 categoricalData = ["Currently in negotiations","Announced interest in joining", "Potential future members"]
 
-categoricalColors = ["#1f78b4", "#a6cee3", "#b2df8a"]
+categoricalColors = ["#1b9e77", "#d95f02", "#7570b3"]
 
 ordinalScale = d3.scale.ordinal()
   .domain(categoricalData)
